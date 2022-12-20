@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:array_to_tree/array_to_tree.dart';
+import 'package:list_to_tree/list_to_tree.dart';
 
 void main() {
   final items = [
@@ -15,7 +15,7 @@ void main() {
 
   print(items);
 
-  final tree = ArrayToTree.instance.toTree(items);
+  final tree = ListToTree.instance.toTree(items);
 
   print(tree);
 }

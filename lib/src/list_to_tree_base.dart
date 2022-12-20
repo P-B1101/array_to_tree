@@ -1,16 +1,16 @@
-part of array_to_tree;
+part of list_to_tree;
 
-/// The [ArrayToTree] entry point.
+/// The [ListToTree] entry point.
 ///
-/// To convert linear (flat) list to tree list, call [ArrayToTree.instance.toTree]
-class ArrayToTree {
+/// To convert linear (flat) list to tree list, call [ListToTree.instance.toTree]
+class ListToTree {
   /// private constructor
   ///
-  ArrayToTree._();
+  ListToTree._();
 
-  static final ArrayToTree _instance = ArrayToTree._();
+  static final ListToTree _instance = ListToTree._();
 
-  static ArrayToTree get instance => _instance;
+  static ListToTree get instance => _instance;
 
   /// Generate tree with the type of `T`
   /// base on provided flat list with the same type.

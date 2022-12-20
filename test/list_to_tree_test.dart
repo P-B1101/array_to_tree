@@ -1,4 +1,4 @@
-import 'package:array_to_tree/array_to_tree.dart';
+import 'package:list_to_tree/list_to_tree.dart';
 import 'package:test/test.dart';
 
 class TestClass extends BaseEntity {
@@ -65,7 +65,7 @@ void main() {
             title: 'title2'),
       ];
       // act
-      final result = ArrayToTree.instance.toTree(items);
+      final result = ListToTree.instance.toTree(items);
       // assert
       expect(result, expectedTree);
     });
@@ -129,7 +129,7 @@ void main() {
         ),
       ];
       // act
-      final result = ArrayToTree.instance.toTree(items);
+      final result = ListToTree.instance.toTree(items);
       // assert
       expect(result, expectedTree);
     });

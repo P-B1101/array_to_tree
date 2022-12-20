@@ -1,4 +1,4 @@
-name: array_to_tree
+name: list_to_tree
 description: A Dart package to convert linear array to tree.
 version: 0.0.1
 homepage: https://b1101-portfolio.web.app

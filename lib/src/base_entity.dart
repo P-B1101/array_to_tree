@@ -1,4 +1,4 @@
-part of array_to_tree;
+part of list_to_tree;
 
 /// Base Entity that subject class need to extends from.
 /// need to override [BaseEntity.withArray] method and just put simple []
