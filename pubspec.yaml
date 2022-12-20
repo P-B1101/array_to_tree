@@ -2,7 +2,7 @@ name: list_to_tree
 description: A Dart package to convert linear array to tree.
 version: 0.0.2
 homepage: https://b1101-portfolio.web.app
-repository: https://github.com/P-B1101/array_to_tree
+repository: https://github.com/P-B1101/list_to_tree
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
