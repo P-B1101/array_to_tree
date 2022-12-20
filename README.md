@@ -4,7 +4,7 @@ A Dart package to convert linear array to tree.
 
 ## Getting started
 
-To use this plugin, add `array_to_tree` as a [dependency in your pubspec.yaml file](https://flutter.dev/platform-plugins/).
+To use this plugin, add `list_to_tree` as a [dependency in your pubspec.yaml file](https://flutter.dev/platform-plugins/).
 
 ## Usage
 
